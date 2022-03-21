@@ -1,0 +1,61 @@
+nav{
+    background: #070a91;
+    color: #fff;
+    border: 1px solid #031bf3;
+    padding: 10px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav  .active,
+nav a:hover{
+    background: #0b6b3a;
+}
+body{
+    background: linear-gradient(0deg, #2bebdb 0%, #000875 58%, #070a91 100%);
+    overflow: hidden;
+    width: 100wh;
+    height: 100vh;
+}
+
+
+/* ID Selector */
+#intro{
+    background: #fff;
+    border: 1px solid #070a91;
+    min-height: 100px;
+    padding: 10px;
+}
+#intro h1{
+    text-align: left;
+    border: 0;
+    color: #000875;
+}
+#intro p{
+    border: 5px solid gold;
+    color: blue;
+}
+#paragraf-1{
+    font-size: 40px;
+    color: red;
+    background: green;
+}
+
+/* Class Selector */
+.button{
+    padding: 15px 20px;
+    background: #bebcbd;
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+}
+.btn-primary{
+    background: #000875;
+}
+.text-paragraf{
+    color: black;
+    text-align: center;
+}
